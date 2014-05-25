@@ -17,7 +17,7 @@
             var shit = shits[j];
             if (shit.tagName == "DIV") {
                 var styleAttribute = shit.getAttribute("style");
-                if (styleAttribute != null && styleAttribute.match(/^margin-left/)) {
+                if (styleAttribute !== null && styleAttribute.match(/^margin-left/)) {
                     shit.removeAttribute("style");
                 }
             }
