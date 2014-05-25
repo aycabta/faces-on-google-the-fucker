@@ -9,7 +9,7 @@
 
 (function() {
     var i;
-    var sucks = document.getElementsByClassName("thb"); // icons
+    var sucks = document.getElementsByClassName("th"); // icons
     for (i = 0; i < sucks.length; i++) {
         var suck = sucks[i];
         var shits = suck.parentNode.parentNode.childNodes;
@@ -30,7 +30,7 @@
     head.appendChild(style);
     
     var sheet = style.sheet;
-    sheet.insertRule('.thb { display: none; }', sheet.cssRules.length);
+    sheet.insertRule('.th { display: none; }', sheet.cssRules.length);
     sheet.insertRule('.f { display: none; }', sheet.cssRules.length);
     sheet.insertRule('.kv { display: block; }', sheet.cssRules.length);
 })();
