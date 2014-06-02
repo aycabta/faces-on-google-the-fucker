@@ -30,7 +30,7 @@
     head.appendChild(style);
     
     var sheet = style.sheet;
-    sheet.insertRule('.th { display: none; }', sheet.cssRules.length);
+    sheet.insertRule('div.th { display: none; }', sheet.cssRules.length);
     sheet.insertRule('.f { display: none; }', sheet.cssRules.length);
     sheet.insertRule('.kv { display: block; }', sheet.cssRules.length);
 })();
