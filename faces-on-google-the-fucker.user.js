@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Faces on Google The Fucker
 // @namespace  http://aycabta.github.io/
-// @version    0.1.1
+// @version    0.1.2
 // @description  Kill the real face icons on Google Search.
 // @include    /https?:\/\/www.google\.[^\/]+\/search.+/
 // @copyright  2013+, Code Ass
